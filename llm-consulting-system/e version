@@ -1,0 +1,9 @@
+[0;1;32m●[0m podman.socket - Podman API Socket
+     Loaded: loaded (]8;;file://fedora/usr/lib/systemd/user/podman.socket\/usr/lib/systemd/user/podman.socket]8;;\; [0;1;32menabled[0m; preset: [0;1;38:5:185mdisabled[0m)
+     Active: [0;1;32mactive (listening)[0m since Fri 2026-06-05 04:04:15 MSK; 19ms ago
+ Invocation: c5ca50526be3463da3a3d06aeea5bb9e
+   Triggers: ● podman.service
+       Docs: ]8;;man:podman-system-service(1)\man:podman-system-service(1)]8;;\
+     Listen: /run/user/1000/podman/podman.sock (Stream)
+
+июн 05 04:04:15 fedora systemd[2830]: Listening on podman.socket - Podman API Socket.
